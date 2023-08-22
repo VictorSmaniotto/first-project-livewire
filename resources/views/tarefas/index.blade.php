@@ -1,3 +1,7 @@
+@extends('layouts.app')
+
+@section('content')
+
 <h1>Tarefas</h1>
 
 
@@ -33,3 +37,5 @@
             @endforeach
     </tbody>
 </table>
+    
+@endsection
